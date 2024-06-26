@@ -75,4 +75,3 @@
     - ALTRIMENTI aspettare che divendi verde  
 - attraversare lungo le strisce
 - continuare la passeggiata
-
