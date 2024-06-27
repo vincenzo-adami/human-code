@@ -67,11 +67,17 @@
 - avvicinarsi alle strisce pedonali
 - guardare a destra e a sinistra per vedere se è libero
   - controllare se è presente un semaforo
-  - SE non c'è il semaforo guardare a destra e a sinistra per vedere se sopraggiungono veicoli
-    - SE non viene nessuno attraversare le strisce
-    - ALTRIMENTI aspettare che non venga nessuno ed attraversare
-  - ALTRIMENTI verificare il colore del semaforo
-    - SE è verde attrevarse le strisce
-    - ALTRIMENTI aspettare che divendi verde  
-- attraversare lungo le strisce
+  - SE non c'è il semaforo
+    - guardare a destra e a sinistra per vedere se sopraggiungono veicoli
+      - SE non viene nessuno
+        - attraversare le strisce
+      - ALTRIMENTI
+        - aspettare che non venga nessuno
+        - attraversare
+  - ALTRIMENTI 
+    - verificare il colore del semaforo
+      - SE è verde
+        - attrevarse le strisce
+      - ALTRIMENTI
+        - aspettare che divendi verde  
 - continuare la passeggiata
